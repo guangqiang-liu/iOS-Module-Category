@@ -24,10 +24,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc     = true
 
-  s.default_subspec = 'Code'
-
-  s.subspec 'Code' do |ss|
-        ss.source_files = "ModuleCategory/Category/**/*.{h,m}"
-    end
+  s.source_files = "ModuleCategory/Category/**/*.{h,m}"
 
 end
