@@ -26,4 +26,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "ModuleCategory/Category/**/*.{h,m}"
 
+  s.dependency 'ComponentScheduler'
+
 end
