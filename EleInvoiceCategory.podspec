@@ -24,8 +24,10 @@ Pod::Spec.new do |s|
 
   s.requires_arc     = true
 
-  s.ios.deployment_target = '8.0'
+  s.default_subspec = 'Code'
 
-  s.source_files = "ModuleCategory/Category/**/*.{h,m}"
+  s.subspec 'Code' do |ss|
+        ss.source_files = "ModuleCategory/Category/**/*.{h,m}"
+    end
 
 end
