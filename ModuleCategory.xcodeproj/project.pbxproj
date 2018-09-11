@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36C9FDAE12A5C60D6ECA6CEA /* Pods_ModuleCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04358D8B8FA217ED1F3BD57 /* Pods_ModuleCategory.framework */; };
 		9C2697DD2147ECAF004DA3E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2697DC2147ECAF004DA3E5 /* AppDelegate.m */; };
 		9C2697E02147ECAF004DA3E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2697DF2147ECAF004DA3E5 /* ViewController.m */; };
 		9C2697E32147ECAF004DA3E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2697E12147ECAF004DA3E5 /* Main.storyboard */; };
 		9C2697E52147ECB0004DA3E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2697E42147ECB0004DA3E5 /* Assets.xcassets */; };
 		9C2697E82147ECB0004DA3E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2697E62147ECB0004DA3E5 /* LaunchScreen.storyboard */; };
 		9C2697EB2147ECB0004DA3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2697EA2147ECB0004DA3E5 /* main.m */; };
-		9C2697FA2147F4C0004DA3E5 /* ComponentScheduler+EleInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2697F92147F4C0004DA3E5 /* ComponentScheduler+EleInvoice.m */; };
+		9C2697FD2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2697FC2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m */; };
+		A611D7B604D5E3A0C2DC0387 /* libPods-ModuleCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B4279E38C479AC7F808EA /* libPods-ModuleCategory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		513CFB4A4B54E6115F232CE0 /* Pods-ModuleCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleCategory/Pods-ModuleCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		8E5B4279E38C479AC7F808EA /* libPods-ModuleCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2697D82147ECAF004DA3E5 /* ModuleCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2697DB2147ECAF004DA3E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C2697DC2147ECAF004DA3E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,10 +30,9 @@
 		9C2697E72147ECB0004DA3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C2697E92147ECB0004DA3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C2697EA2147ECB0004DA3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9C2697F82147F4C0004DA3E5 /* ComponentScheduler+EleInvoice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComponentScheduler+EleInvoice.h"; sourceTree = "<group>"; };
-		9C2697F92147F4C0004DA3E5 /* ComponentScheduler+EleInvoice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ComponentScheduler+EleInvoice.m"; sourceTree = "<group>"; };
+		9C2697FB2148191F004DA3E5 /* ComponentScheduler+EleInvoice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComponentScheduler+EleInvoice.h"; sourceTree = "<group>"; };
+		9C2697FC2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ComponentScheduler+EleInvoice.m"; sourceTree = "<group>"; };
 		B271227451411C1ED757776F /* Pods-ModuleCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleCategory/Pods-ModuleCategory.release.xcconfig"; sourceTree = "<group>"; };
-		D04358D8B8FA217ED1F3BD57 /* Pods_ModuleCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C9FDAE12A5C60D6ECA6CEA /* Pods_ModuleCategory.framework in Frameworks */,
+				A611D7B604D5E3A0C2DC0387 /* libPods-ModuleCategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +94,8 @@
 		9C2697F12147EE3E004DA3E5 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				9C2697F82147F4C0004DA3E5 /* ComponentScheduler+EleInvoice.h */,
-				9C2697F92147F4C0004DA3E5 /* ComponentScheduler+EleInvoice.m */,
+				9C2697FB2148191F004DA3E5 /* ComponentScheduler+EleInvoice.h */,
+				9C2697FC2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 		F8118EB242FB5C938D2CA574 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D04358D8B8FA217ED1F3BD57 /* Pods_ModuleCategory.framework */,
+				8E5B4279E38C479AC7F808EA /* libPods-ModuleCategory.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			files = (
 				9C2697E02147ECAF004DA3E5 /* ViewController.m in Sources */,
 				9C2697EB2147ECB0004DA3E5 /* main.m in Sources */,
-				9C2697FA2147F4C0004DA3E5 /* ComponentScheduler+EleInvoice.m in Sources */,
+				9C2697FD2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m in Sources */,
 				9C2697DD2147ECAF004DA3E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
