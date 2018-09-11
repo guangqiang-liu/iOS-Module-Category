@@ -7,6 +7,7 @@
 //
 
 #import "ComponentScheduler+EleInvoice.h"
+
 @implementation ComponentScheduler (EleInvoice)
 
 - (UIViewController *)EleInvoice_ViewControllerWithCallback:(void(^)(NSString *result))callback {
