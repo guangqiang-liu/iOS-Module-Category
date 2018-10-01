@@ -13,7 +13,7 @@
 		9C2697E52147ECB0004DA3E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2697E42147ECB0004DA3E5 /* Assets.xcassets */; };
 		9C2697E82147ECB0004DA3E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2697E62147ECB0004DA3E5 /* LaunchScreen.storyboard */; };
 		9C2697EB2147ECB0004DA3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2697EA2147ECB0004DA3E5 /* main.m */; };
-		9C2697FD2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2697FC2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m */; };
+		9C3EEAEE2161BCC9005B94FE /* CTMediator+Elelnvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EEAED2161BCC9005B94FE /* CTMediator+Elelnvoice.m */; };
 		A611D7B604D5E3A0C2DC0387 /* libPods-ModuleCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B4279E38C479AC7F808EA /* libPods-ModuleCategory.a */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		9C2697E72147ECB0004DA3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C2697E92147ECB0004DA3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C2697EA2147ECB0004DA3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9C2697FB2148191F004DA3E5 /* ComponentScheduler+EleInvoice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComponentScheduler+EleInvoice.h"; sourceTree = "<group>"; };
-		9C2697FC2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ComponentScheduler+EleInvoice.m"; sourceTree = "<group>"; };
+		9C3EEAEC2161BCC9005B94FE /* CTMediator+Elelnvoice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Elelnvoice.h"; sourceTree = "<group>"; };
+		9C3EEAED2161BCC9005B94FE /* CTMediator+Elelnvoice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Elelnvoice.m"; sourceTree = "<group>"; };
 		B271227451411C1ED757776F /* Pods-ModuleCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleCategory/Pods-ModuleCategory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,8 +94,8 @@
 		9C2697F12147EE3E004DA3E5 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				9C2697FB2148191F004DA3E5 /* ComponentScheduler+EleInvoice.h */,
-				9C2697FC2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m */,
+				9C3EEAEC2161BCC9005B94FE /* CTMediator+Elelnvoice.h */,
+				9C3EEAED2161BCC9005B94FE /* CTMediator+Elelnvoice.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			files = (
 				9C2697E02147ECAF004DA3E5 /* ViewController.m in Sources */,
 				9C2697EB2147ECB0004DA3E5 /* main.m in Sources */,
-				9C2697FD2148191F004DA3E5 /* ComponentScheduler+EleInvoice.m in Sources */,
+				9C3EEAEE2161BCC9005B94FE /* CTMediator+Elelnvoice.m in Sources */,
 				9C2697DD2147ECAF004DA3E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

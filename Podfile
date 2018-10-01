@@ -12,6 +12,6 @@ target 'ModuleCategory' do
 
   # Pods for ModuleCategory
   
-  pod 'ComponentScheduler'
+  pod 'CTMediator'
 
 end

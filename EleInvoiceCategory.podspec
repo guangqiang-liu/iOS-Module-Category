@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EleInvoiceCategory'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'iOS电子发票业务模块组件分类'
 
 # This description is used to generate tags and improve search results.
@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "ModuleCategory/Category/**/*.{h,m}"
 
-  s.dependency 'ComponentScheduler'
+  s.dependency 'CTMediator'
 
 end
